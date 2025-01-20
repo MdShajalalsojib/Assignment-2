@@ -155,5 +155,16 @@ nav ul li {
   .img-09{
     width: 60px;
   }
+  .div-09-design{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(1, 100px) 10px 10px;
+    
+  }
+  .div-09-design{
+    grid-row: span 4; 
+
+  }
    
   
