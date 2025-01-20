@@ -100,4 +100,60 @@ nav ul li {
   .text-design{
     color: rgb(47, 47, 47);
   }
+  .st-de{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .div-02-design {
+    background-image: url('../B11-A2-Kids-School/assets/bg.png'); 
+    /* background: linear-gradient(0deg, rgb(241, 240, 240) 2.884%, rgba(209, 214, 214, 0) 101.034%);
+      */
+
+     
+     
+  }
+  .div-03-design{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+    gap: 100px;
+  }
+  .div-04-design{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    background: linear-gradient(180.00deg, rgb(141, 166, 158),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    
+  }
+  .div-05-design{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    background: linear-gradient(180.00deg, rgb(214, 174, 195),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+     
+    
+  }
+  .div-06-design{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    background: linear-gradient(180.00deg, rgb(208, 191, 230),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    
+  }
+  .div-07-design{
+    text-align: center;
+     margin-top: 80px;
+     
+  }
+  .img-09{
+    width: 60px;
+  }
+   
   
