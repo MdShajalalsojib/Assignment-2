@@ -124,7 +124,7 @@ nav ul li {
   .div-02-design {
     background-image: url('../B11-A2-Kids-School/assets/bg.png'); 
     /* background: linear-gradient(0deg, rgb(241, 240, 240) 2.884%, rgba(209, 214, 214, 0) 101.034%);
-      */
+       */
 
       width: 1280px;
     margin: auto;
@@ -228,7 +228,44 @@ nav ul li {
     grid-row: span 4; 
 
   }
+  .t-y{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .button-03-design{
+    background-color: #111111;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
 
+  }
+  .footer-img{
+    display: flex;
+  }
+  .footer-div-00{
+     background-color: #01ACFD;
+     height: 400px;
+  }
+  .footer-div-01{  
+    display: flex;
+    justify-content:  space-between;
+    width: 1280px;
+    margin: auto;
+    margin-top: 20px;
+    
+     
+     
+  }
+  .text-colo{
+    color: wheat;
+  }
+  .footer-div{
+    width: 300px;
+    margin-top: 70px; 
+  }
+   
   /* responsive media query */
   @media screen and (max-width: 576px){
     nav {
