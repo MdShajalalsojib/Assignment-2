@@ -23,10 +23,11 @@
   }
   nav{
     display: flex;
-    /* background-color: aqua; */
     align-items: center;
     
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content:  space-between;
+    flex-direction: row;
       
      
   }
@@ -39,6 +40,21 @@ nav ul li {
   margin-right:32px;
     
   
+
+}
+.li-design-01{
+  color: #FEA301;
+}
+.li-design-02{
+  color: #5d94ad;
+
+}
+.li-design-03{
+  color: rgb(74, 145, 145);
+
+}
+.li-design-04{
+  color: rgb(32, 147, 167);
 
 }
  .button-design{
@@ -94,6 +110,7 @@ nav ul li {
     font-size: 20px;
     border: none;
      gap: 4220px;
+      
 
 
   }
@@ -109,9 +126,12 @@ nav ul li {
     /* background: linear-gradient(0deg, rgb(241, 240, 240) 2.884%, rgba(209, 214, 214, 0) 101.034%);
       */
 
-     
+      width: 1280px;
+    margin: auto;
+    margin-top: 20px;    
      
   }
+   
   .div-03-design{
     display: flex;
     width: 1280px;
@@ -149,22 +169,72 @@ nav ul li {
   }
   .div-07-design{
     text-align: center;
-     margin-top: 80px;
+     margin-top: 50px;
      
   }
   .img-09{
-    width: 60px;
+    width: 80px;
   }
   .div-09-design{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-    grid-template-rows: repeat(1, 100px) 10px 10px;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 20px; 
+    /* padding: 10px;
+    border-radius: 10px; */ 
+   
     
+
+    
+    
+  }
+  .div-10-design{
+    grid-row: span 2;
+    background-color: #fbfaf8;
+    border-radius: 20px;
+     
+   
+  }
+  .div-11-design{
+    background-color: #fbfaf8;
+    border-radius: 20px;
+    width: 291px;
+
+  }
+
+  .dsef {
+    text-align:left;
+    padding: 10px;
+     
+  }
+  .Date-design{
+    text-align: center;
+  }
+  /* auto-fit, minmax(250px, 1fr) */
+  .Date{
+    display: flex;
+    display: block;
+    background: #FD6E0A;
+    color: wheat;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+  }
+  .img-03-design{
+     border-radius: 10px 10px 0px 0px;
   }
   .div-09-design{
     grid-row: span 4; 
 
   }
+
+  /* responsive media query */
+  @media screen and (max-width: 576px){
+    nav {
+      font-display:  column;
+    }
+
+  }
    
-  
+   
