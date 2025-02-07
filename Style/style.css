@@ -123,8 +123,8 @@ nav ul li {
   }
   .div-02-design {
     background-image: url('../B11-A2-Kids-School/assets/bg.png'); 
-    /* background: linear-gradient(0deg, rgb(241, 240, 240) 2.884%, rgba(209, 214, 214, 0) 101.034%);
-       */
+     /* background: linear-gradient(0deg, rgb(195, 29, 29) 2.884%, rgba(209, 214, 214, 0) 101.034%);
+     */
 
       width: 1280px;
     margin: auto;
@@ -181,7 +181,7 @@ nav ul li {
      gap: 20px; 
     /* padding: 10px;
     border-radius: 10px; */ 
-   
+     
     
 
     
@@ -191,6 +191,7 @@ nav ul li {
     grid-row: span 2;
     background-color: #fbfaf8;
     border-radius: 20px;
+    
      
    
   }
@@ -198,16 +199,24 @@ nav ul li {
     background-color: #fbfaf8;
     border-radius: 20px;
     width: 291px;
+     
+     
 
   }
 
   .dsef {
     text-align:left;
     padding: 10px;
+    
+    margin-top:-30px;
+    z-index: 100;
+    position: relative; 
+     
      
   }
   .Date-design{
-    text-align: center;
+    text-align: center; 
+
   }
   /* auto-fit, minmax(250px, 1fr) */
   .Date{
@@ -220,18 +229,26 @@ nav ul li {
     font-size: 16px;
     text-align: center;
     width: 150px;
+     
+     
+   
+    
   }
   .img-03-design{
      border-radius: 10px 10px 0px 0px;
+     
+     
   }
   .div-09-design{
     grid-row: span 4; 
+     
 
   }
   .t-y{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
   }
   .button-03-design{
     background-color: #111111;
@@ -265,11 +282,68 @@ nav ul li {
     width: 300px;
     margin-top: 70px; 
   }
+  
    
   /* responsive media query */
+  /* .hide{
+    display: flex;
+  } */
+  .mobile-system{
+    display: flex;
+    
+     
+  }
+  .mobile{
+      margin-left:1200px;
+      margin-top: 30px; 
+  }
+   .mobile-system {
+    display: none;
+  } 
+  .hr{
+    display: none;
+  }
   @media screen and (max-width: 576px){
-    nav {
-      font-display:  column;
+    .hide{
+      display: none;
+   }
+   /* .mobile {
+    display: block;
+    flex-direction: column;
+   } */
+    .mobile-system{
+      display: block;
+      flex-direction: column;
+    }
+     
+    .hr{
+      display: block;
+    }
+    .banner-design{
+       flex-direction: column;
+       text-align: center;
+    } 
+      /* .stude-des{
+      font-size: 50px;
+    }  */
+    .div-design-01{
+      text-align: center;
+       
+    }
+    .div-03-design{
+      flex-direction: column;
+       gap: 20px;
+    }
+    .div-09-design{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .footer-div-01{
+      flex-direction: column;
+      padding: 20px;
+      width: 100%;
     }
 
   }
